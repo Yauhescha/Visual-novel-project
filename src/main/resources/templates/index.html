@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>NovelasGame</title>
+<!-- 	<meta th:replace="~{commons :: head}"></meta> -->
+</head>
+<body>
+
+<!-- <div th:replace="~{commons :: nav}"></div> -->
+
+<!-- <h3 class="text-center" th:if="${success}" th:text="${success}"></h3> -->
+		
+<section>
+	<div class="container_slider_css">
+		<a href="#index-gamePrev"> 
+			<img class="photo_slider_css" src="/forPages/1.jpg"> 
+			<img class="photo_slider_css" src="/forPages/2.jpg">
+			<img class="photo_slider_css" src="/forPages/3.jpg"> 
+			<img class="photo_slider_css" src="/forPages/4.jpg">
+		</a>
+	</div>
+</section>
+
+<section id="index-gamePrev">
+	<div class="container">
+		<div class="index-gamePrev d-flex justify-content-center">Our games</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="games d-flex flex-wrap justify-content-center">
+
+<!-- 			<div class="games-item position-relative" th:each="game:${games}"> -->
+<!-- 				<a th:href="description+${game.id}" class="game-banner"> -->
+<!-- 					<img th:src="@{${game.avatar}}" class="game-image"> -->
+<!-- 				<div class="game-detail position-absolute"> -->
+<!-- 					<span class="game-title text-uppercase" -->
+<!-- 						th:text="${game.title}">Kingdom Rush: Frontiers</span> -->
+<!-- 				</div> -->
+<!-- 				</a> -->
+<!-- 			</div> -->
+		</div>
+	</div>
+</section>
+
+<!-- <div th:replace="~{commons :: footer}"></div> -->
+
+</body>
+
+</html>
