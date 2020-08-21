@@ -1,7 +1,13 @@
 package com.onlinegames.novel.service;
 
+import com.onlinegames.novel.entity.game.Scene;
+
 public class BackGroundService {
-	public BackGroundService getBackGround(String str) {
-		return null;
+	Scene scene;
+	public Scene getBackGround(String str) {
+		scene = new Scene();
+		
+		
+		return scene;
 	}
 }
